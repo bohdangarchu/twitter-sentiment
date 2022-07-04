@@ -76,16 +76,6 @@ body {
   font-size: 16px;
 }
 
-.s003 form .inner-form .input-field input:-moz-placeholder {
-  color: #888;
-  font-size: 16px;
-}
-
-.s003 form .inner-form .input-field input::-webkit-input-placeholder {
-  color: #888;
-  font-size: 16px;
-}
-
 .s003 form .inner-form .input-field input:hover, .s003 form .inner-form .input-field input:focus {
   box-shadow: none;
   outline: 0;
@@ -95,75 +85,6 @@ body {
 .s003 form .inner-form .input-field.first-wrap {
   width: 200px;
   border-right: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.s003 form .inner-form .input-field.first-wrap .choices__inner {
-  background: transparent;
-  border-radius: 0;
-  border: 0;
-  height: 100%;
-  color: #fff;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-      align-items: center;
-  padding: 10px 30px;
-}
-
-.s003 form .inner-form .input-field.first-wrap .choices__inner .choices__list.choices__list--single {
-  display: -ms-flexbox;
-  display: flex;
-  padding: 0;
-  -ms-flex-align: center;
-      align-items: center;
-  height: 100%;
-}
-
-.s003 form .inner-form .input-field.first-wrap .choices__inner .choices__item.choices__item--selectable.choices__placeholder {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-      align-items: center;
-  height: 100%;
-  opacity: 1;
-  color: #888;
-}
-
-.s003 form .inner-form .input-field.first-wrap .choices__inner .choices__list--single .choices__item {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-      align-items: center;
-  height: 100%;
-  color: #555;
-}
-
-.s003 form .inner-form .input-field.first-wrap .choices[data-type*="select-one"]:after {
-  right: 30px;
-  border-color: #e5e5e5 transparent transparent transparent;
-}
-
-.s003 form .inner-form .input-field.first-wrap .choices__list.choices__list--dropdown {
-  border: 0;
-  background: #fff;
-  padding: 20px 30px;
-  margin-top: 2px;
-  border-radius: 4px;
-  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
-}
-
-.s003 form .inner-form .input-field.first-wrap .choices__list.choices__list--dropdown .choices__item--selectable {
-  padding-right: 0;
-}
-
-.s003 form .inner-form .input-field.first-wrap .choices__list--dropdown .choices__item--selectable.is-highlighted {
-  background: #fff;
-  color: #63c76a;
-}
-
-.s003 form .inner-form .input-field.first-wrap .choices__list--dropdown .choices__item {
-  color: #555;
-  min-height: 24px;
 }
 
 .s003 form .inner-form .input-field.second-wrap {
